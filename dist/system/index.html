@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <script src="https://unpkg.com/systemjs@6.10.3/dist/system.js"></script>
+    <script>
+      System.import('./bundle.system.js').then(exports => {
+        console.log(exports.power())
+      })
+    </script>
+  </body>
+</html>
